@@ -1,0 +1,16 @@
+brasileirao = ('Palmeiras', 'Corinthians', 'Internacional', 'Atlético-MG', 'Fluminense', 'Athletico-PR', 'São Paulo',
+               'Santos', 'Flamengo', 'Botafogo', 'Bragantino', 'Goiás', 'Cuiabá', 'Coritiba', 'América-MG', 'Avaí',
+               'Ceará', 'Atlético_GO', 'Juventude', 'Fortaleza')
+print(brasileirao)
+print('\033[31m==\033[m' * 50)
+print('Os 5 primeiros colocados')
+print(brasileirao[0:4])
+print('\033[31m==\033[m' * 50)
+print('Os últimos 4 da tabela')
+print(brasileirao[-4:])
+print('\033[31m==\033[m' * 50)
+print('Em ordem alfabética')
+print(sorted(brasileirao))
+print('\033[31m==\033[m' * 50)
+print('Em que posição está o Fluminense')
+print('Está na posição {}'.format(brasileirao.index('Fluminense')))

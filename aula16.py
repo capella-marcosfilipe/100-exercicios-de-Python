@@ -1,0 +1,5 @@
+pessoa = ('Gustavo', 39, 'M', 99.88)
+print(pessoa)
+del(pessoa)
+pessoa = ('Marcos', 27, 'M', 95)
+print(pessoa)
